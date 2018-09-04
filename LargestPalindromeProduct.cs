@@ -1,5 +1,6 @@
 namespace ProjectEuler 
 {
+    // problem 4 solution
     public class LargestPalindromeProduct
     {
         private short _leftOperand; 
