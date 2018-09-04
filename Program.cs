@@ -10,9 +10,9 @@ namespace ProjectEuler
 
             Console.WriteLine(largestPrimeFactor.FindLargestPrimeFactor());
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine();
 
-            Console.Read();
+            Console.WriteLine("Hello World!");
         }
     }
 }

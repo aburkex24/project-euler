@@ -2,21 +2,21 @@ namespace ProjectEuler
 {
     public class LargestPrimeFactor
     {
-        private long _number;
+        private long _factor;
 
         public LargestPrimeFactor(long input) 
-            => _number = input;
+            => _factor = input;
             
         public long FindLargestPrimeFactor()
         {
-            for (long i = 2; i <= _number; i++)
+            for (long i = 2; i <= _factor; i++)
             {
-                if (IsFactor(_number, i))
+                if (IsFactor(_factor, i))
                 {
-                    if (_number == i)
-                        return _number;
+                    if (_factor == i)
+                        return _factor;
 
-                    _number = _number / i;
+                    _factor = _factor / i;
                     i = 1;
                 }
             }
