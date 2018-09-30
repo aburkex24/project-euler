@@ -1,5 +1,6 @@
 namespace ProjectEuler
 {
+    // problem 3
     public class LargestPrimeFactor
     {
         private long _factor;
