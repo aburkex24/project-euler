@@ -52,7 +52,7 @@ namespace ProjectEuler
 
         private bool IsPalindrome(int input)
         {
-            // split a number into a char array and reverse it and back to a char array from and IEnumerator
+            // split a number into a char array and reverse it and back to a char array from and IEnumerator 
             var inputCharArray = input.ToString().ToCharArray().Reverse().ToArray();
             var inputStringReversed = new string(inputCharArray);
             var inputReversed = int.Parse(inputStringReversed);
