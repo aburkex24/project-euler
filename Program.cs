@@ -6,18 +6,10 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            var largestPrimeFactor = new LargestPrimeFactor(600851475143);
-            var largestPalindromeProduct = new LargestPalindromeProduct();
-
-            Console.WriteLine(largestPrimeFactor.FindLargestPrimeFactor());
-
-            Console.WriteLine();
-
-            Console.WriteLine(largestPalindromeProduct.FindPalindrome());
-
-            Console.WriteLine();
-
-            Console.WriteLine("Hello World!");
+//            var largestPrimeFactor = new LargestPrimeFactor(600851475143);
+//            var largestPalindromeProduct = new LargestPalindromeProduct();
+            var prime = TenThousandFirstPrime.FindPrime(10_001);
+            Console.WriteLine(prime);
         }
     }
 }

@@ -7,11 +7,8 @@ namespace ProjectEuler
     public class LargestPalindromeProduct
     {
         private short _left;
-
         private short _right;
-
-        private byte _finalThreeDigit;
-
+        private readonly byte _finalThreeDigit;
         private int _palindrome;
 
         public LargestPalindromeProduct()

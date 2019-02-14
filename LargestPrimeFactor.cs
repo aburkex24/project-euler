@@ -12,14 +12,12 @@ namespace ProjectEuler
         {
             for (long i = 2; i <= _factor; i++)
             {
-                if (IsFactor(_factor, i))
-                {
-                    if (_factor == i)
-                        return _factor;
+                if (!IsFactor(_factor, i)) continue;
+                if (_factor == i)
+                    return _factor;
 
-                    _factor = _factor / i;
-                    i = 1;
-                }
+                _factor = _factor / i;
+                i = 1;
             }
 
             return 0;
